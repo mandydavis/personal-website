@@ -32,27 +32,27 @@ export default () => {
       <Layout className={`${style.navWrap} ${menu ? null : style.hidden} ${menu ? style.openMenu : null}`}>
         <div className={style.backgroundDiv}>
           <ul className={style.nav}>
-            <li className={style.navItem}>
+            <li className={style.about}>
               <Link to="/" onClick={toggleMenu} activeClassName={style.anchorActive}>
                 About
               </Link>
             </li>
-            <li className={style.navItem}>
-              <Link to="/contact" onClick={toggleMenu} activeClassName={style.anchorActive}>
-                Contact
+            <li className={style.research}>
+              <Link to="/research" onClick={toggleMenu} activeClassName={style.anchorActive}>
+                Research
               </Link>
             </li>
-            <li className={style.navItem}>
+            <li className={style.experience}>
+              <Link to="/experience" onClick={toggleMenu} activeClassName={style.anchorActive}>
+                Experience
+              </Link>
+            </li>
+            <li className={style.blog}>
               <Link to="/blog" onClick={toggleMenu} activeClassName={style.anchorActive}>
                 Blog
               </Link>
             </li>
-            <li className={style.navItem}>
-              <Link to="/tags" onClick={toggleMenu} activeClassName={style.anchorActive}>
-                Tags
-              </Link>
-            </li>
-            <li className={style.navItem}>
+            <li className={style.resume}>
               <Link to="/resume" onClick={toggleMenu} activeClassName={style.anchorActive}>
                 Resume
               </Link>

@@ -74,10 +74,12 @@
         margin: 0;
         display: flex;
     }
+    // hide the weird shard haha
+    z-index: 0;
 }
 .nav{
     .flex-center();
-    background-color: #fff;
+    background-color: #dac28a;
     border-radius: 0 3rem 0 0;
     color: #5F6F81;
     font-weight: 500;
@@ -94,26 +96,95 @@
         background-image: url(../../../images/nav-edge.svg);
         height: 102.1%;
         position: absolute;
-        top: 1px;
+        top: 0px;
         left: -133px;
         width: 135px;
         z-index: -1;
     }
-    .navItem{
-        margin-right: .4rem;
-        a{
-            color: #5F6F81;
-            padding: .6rem 1rem;
-            text-transform: uppercase;
+        
+        .about {
+            margin-right: .4rem;
+            a{
+                color: white;
+                background-color: rgb(48, 205, 253);
+                padding: .6rem 1rem;
+                border-radius: 14px;
+                text-transform: uppercase;
+            }
+            .anchorActive{
+                background-color: black;
+                border-radius: 14px;
+                color: #fff;
+            }
         }
-        .anchorActive{
-            background-color: #304CFD;
-            border-radius: 14px;
-            color: #fff;
+
+        .research {
+            margin-right: .4rem;
+            a{
+                color: white;
+                background-color: rgb(236, 48, 253);
+                padding: .6rem 1rem;
+                border-radius: 14px;
+                text-transform: uppercase;
+            }
+            .anchorActive{
+                background-color: black;
+                border-radius: 14px;
+                color: #fff;
+            }
         }
+
+        .experience {
+            margin-right: .4rem;
+            a{
+                color: white;
+                background-color: rgb(21, 156, 21);
+                padding: .6rem 1rem;
+                border-radius: 14px;
+                text-transform: uppercase;
+            }
+            .anchorActive{
+                background-color: black;
+                border-radius: 14px;
+                color: #fff;
+            }
+        }
+
+        .blog {
+            margin-right: .4rem;
+            a{
+                color: white;
+                background-color: rgb(255, 145, 0);
+                padding: .6rem 1rem;
+                border-radius: 14px;
+                text-transform: uppercase;
+            }
+            .anchorActive{
+                background-color: black;
+                border-radius: 14px;
+                color: #fff;
+            }
+        }
+
+        .resume {
+            margin-right: .4rem;
+            a{
+                color: white;
+                background-color: blue;
+                padding: .6rem 1rem;
+                border-radius: 14px;
+                text-transform: uppercase;
+            }
+            .anchorActive{
+                background-color: black;
+                border-radius: 14px;
+                color: #fff;
+            }
+        }
+
+
     }
     
-}
 /** mobile header code */
 .openMenu{
     ul{
@@ -136,15 +207,16 @@
         }
         .navItem{
             a{
-                color: white;
+                color: rgb(255, 255, 255);
                 font-size: 1.5rem;
             }
             .anchorActive{
-                background-color: #304CFD;
+                background-color: rgb(219, 48, 253);
                 border-radius: 14px;
                 color: white
             }
         }
+        
     }
     .backgroundDiv{
         position: fixed;

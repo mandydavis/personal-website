@@ -8,18 +8,18 @@ import SidebarWrapper from '../../components/PageLayout/Sidebar';
 import PostCard from '../../components/PostCard';
 import SEO from '../../components/Seo';
 
-const blog = ({ data }) => (
+const Experience = ({ data }) => (
   <Layout className="outerPadding">
     <Layout className="container">
       <Header />
       <SEO
-        title="Blog"
-        description="I love writing when I have the time. Here are some thoughts I've formally put onto paper. "
-        path="blog"
+        title="Experience"
+        description="Here's an overview of some of the experiences I've had outside of classes and research."
+        path="experience"
       />
       <SidebarWrapper>
         <div className="marginTopTitle">
-          <h1 className="titleSeparate">Blog</h1>
+          <h1 className="titleSeparate">Experience</h1>
         </div>
         <Row gutter={[20, 20]}>
           {
@@ -36,7 +36,7 @@ const blog = ({ data }) => (
   </Layout>
 );
 
-blog.propTypes = {
+Experience.propTypes = {
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
       edges: PropTypes.arrayOf(PropTypes.object.isRequired).isRequired,
@@ -72,4 +72,4 @@ export const query = graphql`
   }
 `;
 
-export default blog;
+export default Experience;

@@ -1,6 +1,8 @@
 @import (reference) './mixins.less';
 body{
   font-size: 15px;
+  // this is not changing the background from gray to white
+  background-color: white !important;
 }
 h1, h2, h3, h4, h5, h6 {
     color: #44566C;
@@ -54,7 +56,7 @@ ul{
     &::before,
     &::after {
       content: '';
-	  background-color: #304CFD;
+	  background-color: black;
 	  border-radius: .5rem;
 	  height: 5px;
 	  position: absolute;
@@ -64,7 +66,7 @@ ul{
 	  z-index: 1;
     }
     &::after {
-        background-color: #FF965D;
+        background-color: black;
         width: 1rem;
       }
 }
@@ -131,5 +133,5 @@ ul{
   margin: auto;
 }
 .react-pdf__Document{
-  background: lightslategray;
+  background: #f1d592;
 }

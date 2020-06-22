@@ -5,16 +5,11 @@ import { stripTags, domHtml } from '../../../utils/stripTags';
 import SEO from '../../Seo';
 
 const pageText = {
-  paraOne: `Hello !! My name is Rolwin Reevan Monteiro. I'm a full stack web developer who is
-    passionate about various web technologies. I like to experiment with different web
-    technologies. I have an experience of nearly 3 years working with LAMP stack, MERN stack
-    and ELK stack. Building fancy UI's just like this one that your seeing 😅 and writing blogs about tech stacks
-    is what Rolwin loves to do. Check my blog which I update every week for some Javascript and some 
-    cool notes on web technologies.`,
-  paraTwo: `Currently I work mostly with Javascript technologies like ReactJS and NodeJS. I also
-    have hands on experience working with cloud infrastructures like <b>AWS/GCP</b> and have deployed applications
-    keeping scalability in mind. Docker, Kubernetes, Jenkins, SonarQube are some of the cool
-    tools I use for <b>CI/ CD</b>. I'm always a learner and a self taught programmer.`,
+  paraOne: ``,
+  paraTwo: `Hello there! My name is Mandy Davis. I'm a rising senior at Northwestern University. 
+  I'm majoring in <b>Psychology</b>, with an adjunct major in <b>Science in Human Culture</b> and 
+  a minor in <b>Computer Science</b>. Academically speaking, I'm currently most passionate about
+  understanding the <a href="https://mandydavis.github.io/ict-gep-re-analysis/">ICT Gender-Equality Paradox</a>. Outside of classes and research, my main hobby is running.`,
 };
 const AboutMe = () => {
   const description = `${pageText.paraOne} ${stripTags(pageText.paraTwo)}`;
@@ -25,7 +20,7 @@ const AboutMe = () => {
           title="About"
           description={description}
           path=""
-          keywords={['Rolwin', 'Reevan', 'Monteiro', 'FullStack developer', 'Javascript', 'ReactJS', 'NodeJS', 'Gatsby']}
+          keywords={['Mandy', 'Davis', 'Amanda', 'cross country', 'runner', 'running', 'Northwestern', 'research']}
         />
         <h1 className="titleSeparate">About Me</h1>
         <p>
@@ -36,53 +31,53 @@ const AboutMe = () => {
       <Row gutter={[20, 20]}>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
-            img="location.png"
+            img="cactus.png"
             height={60}
             alt="location image"
-            textH4="Born and bought up in"
-            textH3="Mangalore, KA, India"
+            textH4="Born and raised in"
+            textH3="Phoenix, Arizona"
           />
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
-            img="coffee.png"
-            alt="coffee image"
-            textH4="Love Coffee"
-            textH3="Coffee + Me = Happiness"
+            img="gocats.png"
+            alt="Northwestern University mascot"
+            textH4="Go 'cats"
+            textH3="Forever and Always"
           />
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
-            img="meeting.png"
-            alt="meeting image"
-            textH4="Socially Awkward"
-            textH3="At times"
+            img="running_shoe.png"
+            alt="running shoe"
+            textH4="Division I"
+            textH3="Cross Country Runner"
           />
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
-            img="motorcycle.png"
-            alt="motorcycle image"
-            textH4="Love Riding"
-            textH3="Biker for life"
+            img="mountain.png"
+            alt="mountain image"
+            textH4="Obsessed with"
+            textH3="Mountains"
           />
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
-            img="web.png"
-            alt="web image"
-            textH4="Self Taught Programmer"
-            textH3="Thanks to the Web Resources"
+            img="data.png"
+            alt="data image"
+            textH4="Also obsessed with"
+            textH3="Data"
             height={60}
             width={60}
           />
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
-            img="graduation.png"
-            alt="graduation image"
-            textH4="Pursued B.Tech in"
-            textH3="Computer Science"
+            img="research.png"
+            alt="research microscope"
+            textH4="Passionate about"
+            textH3="Research"
             height={60}
             width={60}
           />

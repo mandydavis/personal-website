@@ -1,10 +1,11 @@
 import React from 'react';
 import { Progress } from 'antd';
+import { black } from 'ansi-colors';
 
 const ProgressBar = (props) => {
   const { text, percent } = props;
   return (
-    <div style={{ marginTop: '20px' }}>
+    <div style={{ marginTop: '20px'}}>
       <div>
         <Progress
           percent={percent || 0}
