@@ -1,6 +1,6 @@
 ---
 title: "Northwestern Women's Cross Country"
-path: experience/experience/nuxc
+path: experience/nuxc
 tags: [running]
 cover: ./nuxc_cover.jpeg
 date: 2020-06-21

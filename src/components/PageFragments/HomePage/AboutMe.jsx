@@ -9,7 +9,7 @@ const pageText = {
   paraTwo: `Hello there! My name is Mandy Davis. I'm a rising senior at Northwestern University. 
   I'm majoring in <b>Psychology</b>, with an adjunct major in <b>Science in Human Culture</b> and 
   a minor in <b>Computer Science</b>. Academically speaking, I'm currently most passionate about
-  understanding the <a href="https://mandydavis.github.io/ict-gep-re-analysis/">ICT Gender-Equality Paradox</a>. Outside of classes and research, my main hobby is running.`,
+  understanding the <a href='https://mandydavis.github.io/ict-gep-re-analysis/'>ICT Gender-Equality Paradox</a>. Outside of classes and research, my main hobby is running.`,
 };
 const AboutMe = () => {
   const description = `${pageText.paraOne} ${stripTags(pageText.paraTwo)}`;

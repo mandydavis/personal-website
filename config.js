@@ -1,12 +1,12 @@
 module.exports = {
   pathPrefix: '',
-  siteUrl: 'http://localhost:8000/',
+  siteUrl: 'https://mandydavis.github.io/mandysworld/',
   siteTitle: 'Mandy Davis',
   siteDescription: 'Mandy Davis\'s personal webstite',
   author: 'Mandy Davis',
   postsForArchivePage: 3,
   defaultLanguage: 'en',
-  disqusScript: process.env.DISQUS_SCRIPT || 'https://rolwinreevan.disqus.com/embed.js',
+  // disqusScript: process.env.DISQUS_SCRIPT || 'https://rolwinreevan.disqus.com/embed.js',
   pages: {
     home: '/',
     experience: 'experience',
