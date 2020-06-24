@@ -8,8 +8,7 @@ const PostCard = (props) => {
 
   return (
     <div className={style.postCard}>
-      <Link to={frontmatter.path}
-            state={{ prevPath: frontmatter.path}}>
+      <Link to={`/${frontmatter.path}`}>
         <div
           className={style.postCardImg}
           style={{
