@@ -38,12 +38,12 @@ function SEO({
           ? { name: 'keywords', content: keywords.join(', ') }
           : [];
         const pageUrl = Utils.resolvePageUrl(
-          Config.siteUrl,
+          // Config.siteUrl,
           Config.pathPrefix,
           path,
         );
         const metaImageUrl = Utils.resolveUrl(
-          Config.siteUrl,
+          // Config.siteUrl,
           imageUrl || data.file.childImageSharp.fixed.src,
         );
 
@@ -85,7 +85,7 @@ function SEO({
                     rel: 'alternate',
                     hreflang: obj.hreflang,
                     href: Utils.resolvePageUrl(
-                      Config.siteUrl,
+                      // Config.siteUrl,
                       Config.pathPrefix,
                       obj.path,
                     ),
