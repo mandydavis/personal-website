@@ -20,7 +20,7 @@ const Post = ({ data }) => {
   } = frontmatter;
 
   const canonicalUrl = Utils.resolvePageUrl(
-    Config.siteUrl,
+    // Config.siteUrl,
     Config.pathPrefix,
     path,
   );
