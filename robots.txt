@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://mandydavis.github.io/sitemap.xml
+Host: https://mandydavis.github.io
