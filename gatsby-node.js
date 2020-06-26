@@ -56,16 +56,16 @@ exports.createPages = ({ actions, graphql }) => {
       });
     });
 
-    allTags
-      .forEach((tag) => {
-        createPage({
-          path: utils.resolvePageUrl(config.pages.tag, tag),
-          component: path.resolve('src/templates/tags/index.jsx'),
-          context: {
-            tag,
-          },
-        });
-      });
+    // allTags
+    //   .forEach((tag) => {
+    //     createPage({
+    //       path: utils.resolvePageUrl(config.pages.tag, tag),
+    //       component: path.resolve('src/templates/tags/index.jsx'),
+    //       context: {
+    //         tag,
+    //       },
+    //     });
+    //   });
 
     return 1;
   });

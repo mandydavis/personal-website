@@ -12,7 +12,7 @@ module.exports = {
   pathPrefix: "/mandysworld",
   siteMetadata: {
     // Data used by some gatsby plugins
-    // siteUrl: config.siteUrl,
+    siteUrl: config.siteUrl,
     title: config.siteTitle,
     description: config.siteDescription,
   },
