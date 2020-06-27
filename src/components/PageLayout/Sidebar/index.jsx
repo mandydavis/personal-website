@@ -12,7 +12,7 @@ import Config from '../../../../config';
 
 const { Content } = Layout;
 const {
-  github, instagram, 
+  github, linkedin, medium, instagram, 
 } = Config.social;
 
 const DomContent = () => (
@@ -29,6 +29,8 @@ const DomContent = () => (
       <div className={`${style.badge} ${style.badgeGray}`}>Northwestern University</div>
       <div className="centerAlign box">
         <a href={github} target="_blank" label="button" rel="noopener noreferrer"><FA name="github" /></a>
+        <a href={linkedin} target="_blank" label="button" rel="noopener noreferrer"><FA name="linkedin" /></a>
+        <a href={medium} target="_blank" label="button" rel="noopener noreferrer"><FA name="medium" /></a>
         <a href={instagram} target="_blank" label="button" rel="noopener noreferrer"><FA name="instagram" /></a>
       </div>
       <ul className={`box ${style.badge} contactBlock`}>
@@ -57,7 +59,11 @@ const DomContent = () => (
         </li>
       </ul>
       <div className={style.resumeDownload}>
-        <a href="../resume.pdf" download target="_blank">Download CV</a>
+        <a href="../resume.pdf" download target="_blank">Download Resume</a>
+      </div>
+      <div className={style.copyrightCite}>
+        <p>Copyright © 2020 Mandy Davis</p>
+        <p>Icons from <a href="https://openmoji.org/">OpenMoji</a></p>
       </div>
     </div>
   </aside>

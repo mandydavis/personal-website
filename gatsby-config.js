@@ -9,7 +9,7 @@ const plugins = require('./gatsby-config.plugins');
 
 module.exports = {
   // pathPrefix: config.pathPrefix,
-  pathPrefix: "/mandysworld",
+  pathPrefix: `/mandysworld`,
   siteMetadata: {
     // Data used by some gatsby plugins
     siteUrl: config.siteUrl,

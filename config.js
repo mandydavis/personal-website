@@ -17,6 +17,8 @@ module.exports = {
   social: {
     github: 'https://github.com/mandydavis',
     instagram: 'https://www.instagram.com/mandy_davisss/',
+    linkedin: 'https://www.linkedin.com/in/mandy-davis-850525158/',
+    medium: 'https://medium.com/@amandadavis2021',
     rss: '/rss.xml',
   },
   contactFormUrl: process.env.CONTACT_FORM_ENDPOINT || 'https://getform.io/f/09a3066f-c638-40db-ad59-05e4ed71e451',
