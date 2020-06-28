@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[10],{"RJk/":function(e,a,n){"use strict";n.r(a);var t=n("q1tI"),l=n.n(t),r="",o="Coming soon: all of my (2) Medium posts will appear here.";a.default=function(){return l.a.createElement(l.a.Fragment,null,l.a.createElement("div",null,l.a.createElement("h1",{className:"titleSeparate"},"Blog"),l.a.createElement("p",null,r),l.a.createElement("p",null,o)))}}}]);
-//# sourceMappingURL=component---src-pages-blog-index-jsx-a76641923a57afa21676.js.map
