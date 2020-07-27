@@ -16,7 +16,7 @@ module.exports = {
   },
   social: {
     github: 'https://github.com/mandydavis',
-    instagram: 'https://www.instagram.com/mandy_davisss/',
+    instagram: 'https://www.instagram.com/mandy.csv/',
     linkedin: 'https://www.linkedin.com/in/mandy-davis-850525158/',
     medium: 'https://medium.com/@amandadavis2021',
     rss: '/rss.xml',
