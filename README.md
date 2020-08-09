@@ -7,12 +7,12 @@
 <h1 align="center">
   My personal website
 </h1>
-<h3 align="center">Adapted from RolwinReevan's Gatsby's Portfolio template using <a href='https://ant.design/' target='_blank'>ant-design</a>. The starter can be found <a href='https://www.gatsbyjs.org/starters/rolwin100/rolwinreevan_gatsby_blog/' target='_blank'>here</h3>
+<h3>Adapted from RolwinReevan's Gatsby's Portfolio template using <a href='https://ant.design/' target='_blank'>ant-design</a>. The starter can be found <a href='https://www.gatsbyjs.org/starters/rolwin100/rolwinreevan_gatsby_blog/' target='_blank'>here</a></h3>.
 
 In the process of building my personal website, I learned a lot about Gatsby, web development, and working with (understanding) other people's code. For a while now, I've had the idea of creating a portfolio website modeled off of a classic manila folder with those brightly colored binder tabs. I finally made that a reality, though the mobile version isn't quite as exciting. 
 
 
-## 🧐 What's inside?
+## 🧐 What's inside? (via Rolwin Reevan)
 
 A quick look at the top-level files and directories you'll see in a Gatsby project.
 
