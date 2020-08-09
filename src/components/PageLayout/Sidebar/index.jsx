@@ -34,13 +34,13 @@ const DomContent = () => (
         <a href={instagram} target="_blank" label="button" rel="noopener noreferrer"><FA name="instagram" /></a>
       </div>
       <ul className={`box ${style.badge} contactBlock`}>
-        <li className={`${style.contactBlockItem}`}>
+        {/* <li className={`${style.contactBlockItem}`}>
           <span>
             <FeatherIcon size="19" icon="calendar" />
             {' '}
           </span>
 &nbsp; &nbsp; August 3, 1999
-        </li>
+        </li> */}
         <li className={`${style.contactBlockItem}`}>
           <span><FeatherIcon size="19" icon="map-pin" /></span>
           {' '}
@@ -48,7 +48,6 @@ const DomContent = () => (
         </li>
         <li className={`${style.contactBlockItem}`}>
           <span><FeatherIcon size="19" icon="mail" /></span>
-          {' '}
 &nbsp; &nbsp; 
           <a
             href="mailto:amandadavis2021@u.northwestern.edu"
@@ -56,16 +55,18 @@ const DomContent = () => (
           >
             <span className={style.emailHider}>@</span>
           </a>
+&nbsp; &nbsp;
         </li>
+        {/* <li className={`${style.copyrightCite}`}>
+          <p>Copyright © 2020 Mandy Davis</p>
+          <p>Icons from <a href="https://openmoji.org/">OpenMoji</a></p>
+        </li> */}
+        {' '}
       </ul>
-      <div className={style.resumeDownload}>
-        <a href="../resume.pdf" download target="_blank">Download Resume</a>
-      </div>
-      <div className={style.copyrightCite}>
-        <p>Copyright © 2020 Mandy Davis</p>
-        <p>Icons from <a href="https://openmoji.org/">OpenMoji</a></p>
-      </div>
     </div>
+    {/* <div className={style.resumeDownload}>
+        <a href="../resume.pdf" download target="_blank">Download Resume</a>
+    </div> */}
   </aside>
 );
 

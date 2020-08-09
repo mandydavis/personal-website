@@ -1,6 +1,6 @@
 module.exports = {
   pathPrefix: '',
-  siteUrl: 'https://mandydavis.github.io/mandysworld/',
+  siteUrl: 'https://mandy-davis.com/',
   siteTitle: 'Mandy Davis',
   siteDescription: 'Mandy Davis\'s personal webstite',
   author: 'Mandy Davis',

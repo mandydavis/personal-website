@@ -40,6 +40,7 @@
         outline:none;
     }
 }
+
 .menuIcon {
     .hamburgerText {
         opacity: 0;
@@ -60,6 +61,7 @@
         transform: translateY(-6px) rotate(-45deg);
     }
 }
+
 .content{
     background: #fff;
     border-radius: @border-radius-content;
@@ -77,6 +79,7 @@
     // hide the weird shard haha
     z-index: 0;
 }
+
 .nav{
     .flex-center();
     background-color: #dac28a;
@@ -189,10 +192,8 @@
                 color: #fff;
             }
         }
-
-
     }
-    
+
 /** mobile header code */
 .openMenu{
     ul{
@@ -207,15 +208,20 @@
         li{
             margin-bottom: 1rem;
         }
+        // trying this
+        z-index: 1000;
     }
+
     .nav{
         background-color: rgb(219, 48, 253);
+        z-index: 1000;
         &:before {
             background-image: none;
         }
-        .about {
+        .about{
             a{
-                color: rgb(255, 255, 255);
+                background-color: rgb(219, 48, 253);
+                color: white;
                 font-size: 1.5rem;
             }
             .anchorActive{
@@ -225,9 +231,10 @@
             }
         }
 
-        .research {
+        .research{
             a{
-                color: rgb(255, 255, 255);
+                background-color: rgb(219, 48, 253);
+                color: white;
                 font-size: 1.5rem;
             }
             .anchorActive{
@@ -237,9 +244,10 @@
             }
         }
 
-        .experience {
+        .experience{
             a{
-                color: rgb(255, 255, 255);
+                background-color: rgb(219, 48, 253);
+                color: white;
                 font-size: 1.5rem;
             }
             .anchorActive{
@@ -249,9 +257,10 @@
             }
         }
 
-        .blog {
+        .blog{
             a{
-                color: rgb(255, 255, 255);
+                background-color: rgb(219, 48, 253);
+                color: white;
                 font-size: 1.5rem;
             }
             .anchorActive{
@@ -263,7 +272,8 @@
 
         .resume{
             a{
-                color: rgb(255, 255, 255);
+                background-color: rgb(219, 48, 253);
+                color: white;
                 font-size: 1.5rem;
             }
             .anchorActive{
@@ -272,16 +282,14 @@
                 color: white
             }
         }
-
-
-        
     }
+
     .backgroundDiv{
-        position: fixed;
-        background-color: white;
+        position: absolute;
+        background-color: rgb(219, 48, 253);
         width: 100%;
         height: 100%;
-        z-index: 100;
+        z-index: 1000;
         right: 0;
         top: 0;
     }

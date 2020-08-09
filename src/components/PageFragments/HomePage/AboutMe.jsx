@@ -23,7 +23,7 @@ const AboutMe = () => {
           keywords={['Mandy', 'Davis', 'Amanda', 'cross country', 'runner', 'running', 'Northwestern', 'research']}
         />
         <h1 className="titleSeparate">About Me</h1>
-        <p>
+        <p className="introSection">
           {pageText.paraOne}
         </p>
         <p dangerouslySetInnerHTML={domHtml(pageText.paraTwo)} />

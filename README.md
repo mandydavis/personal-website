@@ -1,42 +1,15 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
-  <a href="mandydavis.github.io/mandysworld/">
+  <a href="https://mandy-davis.com/">
     <img alt="Gatsby" src="https://github.com/rolwin100/rolwinreevan_gatsby_blog/blob/master/src/images/icon.png" width="60" />
   </a>
 </p>
 <h1 align="center">
-  Mandy Davis's personal website
+  My personal website
 </h1>
-<h3 align="center">Created with Gatsby's RolwinReevan Portfolio template using <a href='https://ant.design/' target='_blank'>ant-design</a></h3>
+<h3 align="center">Adapted from RolwinReevan's Gatsby's Portfolio template using <a href='https://ant.design/' target='_blank'>ant-design</a>. The starter can be found <a href='https://www.gatsbyjs.org/starters/rolwin100/rolwinreevan_gatsby_blog/' target='_blank'>here</h3>
 
-This starter consists of ant design system you can use it for your personal blog. I have give a lot of time in developing this starter because I found that there were not much starters with a very good design. Please give a star to this project if you have like it to encourage me 😄. Thank you.
-
-
-## 🚀 Quick start
-
-1.  **Setup the project by.**
-
-    clone the project and install the dependencies
-
-    ```shell
-    
-    git clone https://github.com/rolwin100/rolwinreevan_gatsby_blog.git
-    cd rolwinreevan_gatsby_blog 
-    npm install
-    ```
-
-1.  **Start developing.**
-
-
-    ```shell
-    gatsby develop
-    ```
-
-1.  **Open the source code and start editing!**
-
-    Your site is now running at `http://localhost:8000`!
-
-    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
+In the process of building my personal website, I learned a lot about Gatsby, web development, and working with (understanding) other people's code. For a while now, I've had the idea of creating a portfolio website modeled off of a classic manila folder with those brightly colored binder tabs. I finally made that a reality, though the mobile version isn't quite as exciting. 
 
 
 ## 🧐 What's inside?
@@ -89,6 +62,6 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
 
 13. **`README.md`**: A text file containing useful reference information about your project.
 
-14. **`content`**: This is the folder where we write our Markdowns for the blogs.
+14. **`content`**: This is the folder where we write our Markdowns for the experience tab.
 
 <!-- AUTO-GENERATED-CONTENT:END -->
