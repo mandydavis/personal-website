@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: http://mandy-davis.com/sitemap.xml
-Host: mandy-davis.com
+Sitemap: https://mandy-davis.com/sitemap.xml
+Host: https://mandy-davis.com
