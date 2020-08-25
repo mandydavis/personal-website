@@ -147,9 +147,7 @@ const research = () => (
           <p>
             <strong>See more</strong>
             : Though this was unofficial research and deviates from
-            my normal research interests, this
-            <a href="../NU Student Athletes.pdf" target="_blank" rel="noreferrer">paper</a>
-            exemplifies my research and writing style.
+            my normal research interests, this <a href="../NU Student Athletes.pdf" target="_blank" rel="noreferrer">paper</a> exemplifies my research and writing style.
           </p>
         </div>
       </SidebarWrapper>
