@@ -102,4 +102,10 @@ module.exports = [
       showSpinner: true,
     },
   },
+  {
+    resolve: `gatsby-source-medium`,
+    options: {
+      username: `@amandadavis2021`,
+    },
+  },
 ];

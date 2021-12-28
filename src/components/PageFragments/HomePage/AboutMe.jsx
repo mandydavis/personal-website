@@ -6,10 +6,9 @@ import SEO from '../../Seo';
 
 const pageText = {
   paraOne: ``,
-  paraTwo: `Hello there! My name is Mandy Davis. I'm a rising senior at Northwestern University. 
-  I'm majoring in <b>Psychology</b>, with an adjunct major in <b>Science in Human Culture</b> and 
-  a minor in <b>Computer Science</b>. Academically speaking, I'm currently most passionate about
-  understanding the <a href='https://mandydavis.github.io/ict-gep-re-analysis/'>ICT Gender-Equality Paradox</a>. Outside of classes and research, my main hobby is running.`,
+  paraTwo: `Hello there! My name is Mandy Davis. I'm a Northwestern University graduate, researcher, educator, and data analyst. 
+  I majored in <b>Psychology</b>, with an adjunct major in <b>Science in Human Culture</b> and 
+  a minor in <b>Computer Science</b>. Most recently, I taught math at a Title I middle school in Idaho through Teach For America Idaho. In my free time, I love reading and running.`,
 };
 const AboutMe = () => {
   const description = `${pageText.paraOne} ${stripTags(pageText.paraTwo)}`;
@@ -42,15 +41,15 @@ const AboutMe = () => {
           <AboutTile
             img="gocats.png"
             alt="Northwestern University mascot"
-            textH4="Go 'cats"
-            textH3="Forever and Always"
+            textH4="Northwestern University"
+            textH3="Go 'cats!"
           />
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
             img="running_shoe.png"
             alt="running shoe"
-            textH4="Division I"
+            textH4="Former Division I"
             textH3="Cross Country Runner"
           />
         </Col>

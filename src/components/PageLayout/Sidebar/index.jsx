@@ -44,17 +44,21 @@ const DomContent = () => (
         <li className={`${style.contactBlockItem}`}>
           <span><FeatherIcon size="19" icon="map-pin" /></span>
           {' '}
-&nbsp; &nbsp; Evanston, Illinois
+&nbsp; &nbsp;Seeking Remote Job
         </li>
         <li className={`${style.contactBlockItem}`}>
           <span><FeatherIcon size="19" icon="mail" /></span>
-&nbsp; &nbsp; 
+{/* &nbsp; &nbsp; 
           <a
             href="mailto:amandadavis2021@u.northwestern.edu"
             target="_top"
           >
             <span className={style.emailHider}>@</span>
-          </a>
+          </a> */}
+&nbsp; &nbsp;
+<li>
+  mandydavi3 [at] gmail [dot] com
+</li>
 &nbsp; &nbsp;
         </li>
         {/* <li className={`${style.copyrightCite}`}>
