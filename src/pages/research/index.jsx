@@ -19,12 +19,24 @@ const research = () => (
           <h1 className="titleSeparate">Research</h1>
         </div>
         <div className="researchTile">
-          <h3>Circumnavigator's Travel-Study Grant 🌍</h3>
+          <h3>[Senior Thesis] The History of a Graph: The STEM Gender-Equality Paradox and the People who Made it 📈</h3>
           <p>
-            Awarded $10,000 to conduct a global research project on the ICT Gender-Equality Paradox.
+          Written under the direction of Prof. Sepehr Vakil (SESP), this closely analyzed thesis exposes the faulty assumptions behind the “gender-equality paradox” in STEM/ICT education, which purports to find that more gender-equal countries have relatively fewer female students graduating in STEM/ICT fields than do countries with less gender equality.  Using a mix of historical, ethnographic, and statistical techniques, the thesis situates the paradox in its social and political context, documenting its analytic and intellectual limits, and then uses IRB-approved interviews with Moroccan women who are pursuing a bachelor's degree in computer science to show how poorly the paradox matches their experiences.
           </p>
           <p>
-            Though my trip has been postponed to due to the Coronavirus pandemic, I will be traveling to
+            <strong>See more</strong>
+            : Read the <a href="https://drive.google.com/file/d/1Qyo37b6dKDefjOCooo9151Kz594qOjyk/view?usp=sharing" rel="noreferrer" target="_blank">full thesis</a>.
+            See the announcement for my thesis being a co-winner of the <a href="https://shc.northwestern.edu/undergraduate/prize-winners.html" rel="noreferrer" target="_blank">2021 Science in Human Culture Essay Prize</a>.
+            {' '}
+          </p>
+        </div>
+        <div className="researchTile">
+          <h3>2020 Circumnavigator's Travel-Study Grant 🌍</h3>
+          <p>
+            Awarded $9,500 to conduct a global research project on the ICT Gender-Equality Paradox.
+          </p>
+          <p>
+            Though the trip was cancelled indefinitely due to the Coronavirus pandemic, I was awarded the chance to visit
             {' '}
             <strong>Morocco</strong>
             {' '}
@@ -76,7 +88,7 @@ const research = () => (
           </p>
         </div>
         <div className="researchTile">
-          <h3>Social Media Lab 📱</h3>
+          <h3>Safe at Home? Investigating police invasions of Chicago homes in the aftermath of Breonna Taylor’s killing.</h3>
           <p>
             I started working as a research assistant in the SML the summer after my freshman year
             and am forever grateful for the amazing people who introduced me to the world of
@@ -88,23 +100,28 @@ const research = () => (
             and applied those skills to a project about transgender
             users of dating apps.
           </p>
-
-          <p>
-            Currently, my work for the SML involves helping a PhD candidate finish her dissertation on
-            {' '}
-            <strong>algorithmic folk theories</strong>
-            . In short, folk theories are theories
-            that users have surrounding how a platform's algorithms work (e.g., the Facebook
-            news feed or Instagram explore feature algorithms).
-          </p>
           <p>
             <strong>See more</strong>
-            : Read the published paper from the transgender users of dating apps project:
+            : See our <a href="https://github.com/Northwestern-Data-Sci-Seminar/Invisible-Institute-Chicago-Reporter-Collaboration-Public/tree/master/The%20Storm%20Panthers" rel="noreferrer" target="_blank"> GitHub repository</a> and <a href="https://docs.google.com/presentation/d/17WM1lXNKKy4280SFajgcNl6E1scE2qAIO-u8cxKEIxk/edit?usp=sharing" rel="noreferrer" target="_blank">final presentation</a>.
             {' '}
             <a href="https://socialmedia.northwestern.edu/wp-content/uploads/2019/11/CSCW_2019_JRFJB.pdf" rel="noreferrer" target="_blank">
               ’I Don’t Want Them to Not Know’: Investigating
               Decisions to Disclose Transgender Identity on Dating Platforms
             </a>
+          </p>
+        </div>
+        <div className="researchTile">
+          <h3>Northwestern Social Media Lab 📱</h3>
+          <p>
+            I started working as a research assistant in the SML the summer after my freshman year
+            and am forever grateful for the amazing people who introduced me to the world of
+            research. I am trained in
+            {' '}
+            <strong>constructivist grounded theory qualitative coding</strong>
+            {' '}
+            and applied those skills to a project about transgender
+            users of dating apps. I worked on other projects with the SML, such as classifying audience-reaching strategies on Facebook and
+            serving as project manager of the final stages of a PhD candidate’s dissertation work on algorithmic folk theories.
           </p>
         </div>
         <div className="researchTile">

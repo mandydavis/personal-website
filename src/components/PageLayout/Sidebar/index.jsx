@@ -60,6 +60,10 @@ const DomContent = () => (
   mandydavi3 [at] gmail [dot] com
 </li>
 &nbsp; &nbsp;
+<li>
+  view source code
+</li>
+&nbsp; &nbsp;
         </li>
         {/* <li className={`${style.copyrightCite}`}>
           <p>Copyright © 2020 Mandy Davis</p>
