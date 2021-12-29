@@ -3,7 +3,7 @@ title: "Northwestern Women's Cross Country"
 path: experience/nuxc/
 tags: [running]
 cover: ./nuxc_cover.jpeg
-date: 2017-09-21
+date: "2017-09-21"
 excerpt: I was fortunate to be a member of Northwestern's varsity cross country team. I loved my team with all my heart. Here's an overview of what it was like to be part of NUXC 💜
 ---
 

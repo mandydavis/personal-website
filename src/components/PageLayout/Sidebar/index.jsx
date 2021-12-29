@@ -65,11 +65,10 @@ const DomContent = () => (
         </li>
         &nbsp; &nbsp;
         <li className={`${style.copyrightCite}`}>
-          <p><a href="https://github.com/mandydavis/personal-website" rel="noreferrer" target="_blank"> View this website's source code</a></p>
+          <p><u><a href="https://github.com/mandydavis/personal-website" rel="noreferrer" target="_blank"> View my website's source code</a></u></p>
           <p>Copyright © 2021 Mandy Davis</p>
           <p>Icons from <a href="https://openmoji.org/">OpenMoji</a></p>
         </li>
-        {' '}
       </ul>
     </div>
     {/* <div className={style.resumeDownload}>
