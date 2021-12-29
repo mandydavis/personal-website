@@ -90,24 +90,14 @@ const research = () => (
         <div className="researchTile">
           <h3>Safe at Home? Investigating police invasions of Chicago homes in the aftermath of Breonna Taylor’s killing.</h3>
           <p>
-            I started working as a research assistant in the SML the summer after my freshman year
-            and am forever grateful for the amazing people who introduced me to the world of
-            research. I learned (and continue to learn) about the value of qualitative research
-            and how to apply that methodology. I am trained in
-            {' '}
-            <strong>constructivist grounded theory qualitative coding</strong>
-            {' '}
-            and applied those skills to a project about transgender
-            users of dating apps.
+            I worked on this project along with two others for Jennie Rogers' Fall 2020 Data Science seminar, for delivery to 
+            <a href="https://invisible.institute/" target="_blank" rel="noreferrer"> The Invisible Institute</a>. To answer the question of if Chicagoans are safe at home, we used relational analytics,
+            data visualization, interactive visualization, machine learning, and natural language processing. As a direct outcome of our project,
+            The public Chicago Police Department database now includes data about warrants involved in allegations of misconduct.
           </p>
           <p>
             <strong>See more</strong>
             : See our <a href="https://github.com/Northwestern-Data-Sci-Seminar/Invisible-Institute-Chicago-Reporter-Collaboration-Public/tree/master/The%20Storm%20Panthers" rel="noreferrer" target="_blank"> GitHub repository</a> and <a href="https://docs.google.com/presentation/d/17WM1lXNKKy4280SFajgcNl6E1scE2qAIO-u8cxKEIxk/edit?usp=sharing" rel="noreferrer" target="_blank">final presentation</a>.
-            {' '}
-            <a href="https://socialmedia.northwestern.edu/wp-content/uploads/2019/11/CSCW_2019_JRFJB.pdf" rel="noreferrer" target="_blank">
-              ’I Don’t Want Them to Not Know’: Investigating
-              Decisions to Disclose Transgender Identity on Dating Platforms
-            </a>
           </p>
         </div>
         <div className="researchTile">

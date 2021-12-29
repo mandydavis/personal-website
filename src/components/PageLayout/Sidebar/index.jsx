@@ -59,16 +59,16 @@ const DomContent = () => (
 <li>
   mandydavi3 [at] gmail [dot] com
 </li>
-&nbsp; &nbsp;
-<li>
-  view source code
-</li>
+{/* &nbsp; &nbsp;
+&nbsp; &nbsp;view this website's source code */}
 &nbsp; &nbsp;
         </li>
-        {/* <li className={`${style.copyrightCite}`}>
-          <p>Copyright © 2020 Mandy Davis</p>
+        &nbsp; &nbsp;
+        <li className={`${style.copyrightCite}`}>
+          <p><a href="https://github.com/mandydavis/personal-website" rel="noreferrer" target="_blank"> View this website's source code</a></p>
+          <p>Copyright © 2021 Mandy Davis</p>
           <p>Icons from <a href="https://openmoji.org/">OpenMoji</a></p>
-        </li> */}
+        </li>
         {' '}
       </ul>
     </div>
